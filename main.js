@@ -83,7 +83,7 @@ document.getElementById('btn-donate')
         const div = document.createElement('div');
         div.innerHTML=`
         <div class="w-11/12 mx-auto mt-5 mb-10 space-y-4 border-2 rounded-xl p-8">
-            <h1 class="text-xl font-bold ">${donateAmount.toFixed(2)} Taka is Donated for famine-2024 at Feni, Bangladesh</h1>
+            <h1 class="text-xl font-bold ">${donateAmount.toFixed(2)} Taka is Donated for famine-2024 at Noakhali, Bangladesh</h1>
             <p>Date: ${new Date()} </p>
         </div>
 
