@@ -43,7 +43,7 @@
                 <div
                     class="navbar w-11/12 mx-auto flex flex-row-reverse lg:flex-row md:flex-row justify-center items-center">
                     <div class="navbar-start">
-                        <button class="btn bg-primary text-xl font-semibold ml-20 lg:ml-0 md:ml-0">Blog</button>
+                        <button href="blog.html" class="btn bg-primary text-xl font-semibold ml-20 lg:ml-0 md:ml-0">Blog</button>
                     </div>
                     <div class="navbar-center lg:flex md:flex hidden justify-center items-center gap-3">
                         <div><img src="assets/logo.png" alt=""></div>
@@ -145,6 +145,20 @@
                     </div>
                 </div>
             </div>
+            <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                <div class="modal-box flex flex-col justify-center items-center">
+                    <h3 class="py-4 text-4xl font-bold">Congrats!</h3>
+                    <img src="assets/coin.png" alt="">
+                    <p class="py-2">You Have Donated For Humankind</p>
+                    <p class="py-2 font-bold text-xl">Successfully</p>
+                    <div class="modal-action">
+                        <form method="dialog">
+                            <!-- if there is a button in form, it will close the modal -->
+                            <button class="btn text-base font-medium">Close Confirmation</button>
+                        </form>
+                    </div>
+                </div>
+            </dialog>
         </section>
         <!-- Donate End Here -->
 
